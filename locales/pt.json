@@ -1,0 +1,387 @@
+{
+    "language": "Português",
+    "system": "SUB100 Imobiliárias",
+    "head": {
+        "home": {
+            "title": "Sistema CRM e Site para imobiliárias e corretores de imóveis",
+            "listItem": "Home",
+            "description":  "Sistema CRM para imobiliárias e corretores de imóveis. Os melhores sites para anunciar lançamentos, venda, locação, temporada e imóveis rurais."
+        },
+        "plan": {
+            "title": "Planos & Preços - CRM para imobiliárias e corretores",
+            "listItem": "Planos & Preços",
+            "description": "Aproveite 12% off no plano anual e teste o sistema CRM SUBSEE para imobiliárias e corretores de imóveis grátis por 30 dias!"
+        },
+        "test": {
+            "title": "Comece a usar o sistema CRM SUBSEE On gratuitamente",
+            "listItem": "Teste grátis",
+            "description": "O teste gratuito do SUBSEE on permitirá que você avalie as funcionalidades do sistema, bem como a forma como nossa empresa oferece suporte a você"
+        },
+        "solicite": {
+            "title": "Solicite um orçamento personalizado do CRM/Site imobiliário",
+            "listItem": "Solicite",
+            "description": "Recursos específicos para seu sistema CRM imobiliário ou projeto exclusivo de Site/Landing Page para imobiliárias, corretores, incorporadoras e loteadoras."
+        },
+        "lgpd": {
+            "title": "Gerencie seus Direitos e Preferências de Navegação",
+            "listItem": "LGPD",
+            "description": "LGPD - Como tratamos seus dados sensíveis pela SUB100 Sistemas Ltda Conheça as Políticas de Privacidade e Cookies utilizados em nosso site."
+        },
+        "policy": {
+            "title": "Entenda as Políticas de Privacidade para sua Navegação",
+            "description": "A Lei nº 13.709/2018, mais conhecida como Lei Geral de Proteção de Dados pessoais (LGPD), passou a regulamentar atividades de Tratamento de Dados Pessoais."
+        },
+        "term": {
+            "title": "Compreenda o Termo de Uso para Navegar no nosso Site",
+            "listItem": "Termo de Uso",
+            "description": "O acesso ao conteúdo deste site dependerá de sua prévia e expressa concordância com os Termos de Uso, Política de Privacidade e armazenamento de cookies."
+        },
+        "crm_imobiliario": {
+            "title": "CRM Imobiliário",
+            "listItem": "CRM Imobiliário",
+            "description": "Um CRM Imobiliário idealizado para múltiplos mercados e mantém você produtivo em qualquer dispositivo"
+        },
+        "lancamento": {
+            "title": "Melhor CRM imobiliário para cadastrar imóveis de lançamentos",
+            "listItem": "Imóveis Lançamentos",
+            "description": "Apresente seus lançamentos imobiliários com qualidade e inovação, graças aos recursos específicos do CRM Imobiliário. Seu anúncio destacarão com excelência."
+        },
+        "locacao": {
+            "title": "Leads de locação não param de chegar? Imagine com o SUBSEE!",
+            "listItem": "Imóveis Locação",
+            "description": "Está com pouco tempo para lidar com leads de locação? Com SUBSEE, empréstimos de chaves, quadro de chaves e análise de propostas e documentos ficam mais fáceis."
+        },
+        "rural": {
+            "title": "O melhor do Agro Broker para corretores com imóveis rurais",
+            "listItem": "Imóveis Rurais",
+            "description": "Eleve o nível dos seus anúncios de fazendas! Destaque o que realmente importa para atrair os melhores compradores do mercado rural do Brasil e do mundo."
+        },
+        "temporada": {
+            "title": "Anunciar imóveis de temporada exige a abordagem correta",
+            "listItem": "Imóveis Temporada",
+            "description": "O CRM SUBSEE possui um módulo específico para locação de temporada. Controla períodos de ocupação e ajusta valores para alta e baixa temporada em seus anúncios."
+        },
+        "venda": {
+            "title": "O melhor anúncio para venda de imóveis em sites e portais",
+            "listItem": "Imóveis Venda",
+            "description": "Surpreenda seus clientes com anúncios profissionais em seu site e portais imobiliários, com o melhor CRM integrado à Inteligência Artificial do ChatGPT."
+        },
+        "minhas-conexoes": {
+            "title": "Venda mais criando conexões e parceiras imobiliárias sólidas",
+            "listItem": "Minhas Conexões",
+            "description": "Estamos na era das conexões. Aproveite o poder das redes de parcerias para impulsionar seus negócios. O CRM SUBSEE está preparado para os match, likes e leads."
+        },
+        "portais-imobiliarios": {
+            "title": "Anuncie nos principais Portais de Imóveis com CRM SUBSEE on",
+            "listItem": "Portais Imobiliários",
+            "description": "Anuncie nos principais Portais de Imóveis de forma rápida e eficiente. O CRM SUBSEE oferece controle inteligente de anúncios e destaques param cada portal."
+        },
+        "site": {
+            "title": "O melhor Site, Hotsite e Landing Page do Corretor de imóveis",
+            "listItem": "Sites & Hotsites",
+            "description": "Sites para imobiliárias, corretores, incorporadoras e loteadoras. Sites especializadas para divulgar lançamentos, imóveis de temporada e imóveis rurais."
+        },
+        "localizacao": {
+            "title": "Anúncios vencedores necessitam muito mais que a localização",
+            "listItem": "Melhor localização",
+            "description": "Anúncios de imóveis bem localizados são mais eficazes em gerar leads. Com o CRM SUBSEE, o corretor transformará suas ofertas em anúncios extremamente atrativos."
+        },
+        "404": {
+            "title": "Erro 404 é um código HTTP que informa página não encontrada",
+            "listItem": "404",
+            "description": "Se você encontrou o erro 404, isso significa que a página solicitada não pode ser encontrada em nosso site."
+        }
+    },
+    "header": {
+        "menu":{
+            "subsee": "CRM SUBSEE",
+            "subseeAlt": "crm_subsee",
+            "site": "Sites & Hotsites",
+            "siteAlt": "Sites e hotsites",
+            "portal": "Portal de Imóveis",
+            "portalAlt": "portal-de-imoveis",
+            "prices": "Preços",
+            "pricesAlt": "precos",
+            "blog": "Blog",
+            "blogAlt": "blog",
+            "about":  "Sobre a SUB100",
+            "aboutAlt":  "sobre-a-sub100",            
+            "submenuAbout": { 
+                "sub100": "Sobre nós",
+                "mission": "Missão e Valores",
+                "word": "Palavra do Diretor",
+                "work": "Trabalhe conosco",
+                "contact": "Fale conosco"
+            }
+        },
+        "enter":"Entrar"
+    },
+    "heroSistemas": {
+        "title": "O mais abrangente <div class='d-inline d-md-block'><span class='text-secondary fw-semibold'>CRM</span> para <span class='text-secondary fw-semibold'>Imobiliárias</span></div><div class='d-inline d-md-block ps-2 ps-md-0'>e <span class='text-secondary fw-semibold'>Corretores de Imóveis</span></div>",
+        "specialty" : {
+            "01": "CRM prático para imobiliárias e corretores",
+            "02": "Super empréstimo de chaves para locação",
+            "03": "Potencialize seu marketing digital imobiliário",
+            "04": "Melhor anúncio para imóveis de lançamentos",
+            "05": "Integre-se com os principais portais de imóveis",
+            "06": "Controle facilmente suas autorizações de vendas",
+            "07": "Gerencie suas reservas de locação de temporada",
+            "08": "Sites e Landing Pages de alta conversão para corretores",
+            "09": "Revolucione seus anúncios de fazendas, sítios e chácaras",
+            "10": "Atraia mais leads qualificados com anúncios diferenciados"
+
+        },
+        "button": "Teste grátis por 30 dias"
+    },
+    "heroNativo": {
+        "title": "SUBSEE <span class='text-on'>on</span> a melhor localização para o seu imóvel",
+        "subtitle": "O CRM Imobiliário mantém você <span class='d-block d-md-inline fw-light'>produtivo em qualquer dispositivo</span>"
+    },
+    "heroPlataforma": {
+        "title": "Um CRM Imobiliário idealizado para múltiplos mercados",
+        "subtitle": "O que você corretor gostaria de gerenciar com o <span class='fw-bold'>SUBSEE</span> <span class='text-on fw-bold'>on</span>",
+        "products":[
+            {
+                "id": 1,
+                "type": "imoveis-lancamentos",
+                "img": "/images/icons/lancamentos.svg", 
+                "aba": "Imóveis <br> Lançamentos"
+            },
+            {
+                "id": 2,
+                "type": "imoveis-venda",
+                "img": "/images/icons/venda.svg",
+                "aba": "Imóveis <br> Venda"
+            },
+            {
+                "id": 3,
+                "type": "imoveis-locacao",
+                "img": "/images/icons/locacao.svg",
+                "aba": "Imóveis <br> Locação"
+            },
+            {
+                "id": 4,
+                "type": "imoveis-temporada",
+                "img": "/images/icons/temporada.svg",
+                "aba": "Imóveis <br> Temporada"
+            },
+            {
+                "id": 5,
+                "type": "imoveis-rurais",
+                "img": "/images/icons/rural.svg",
+                "aba": "Imóveis <br> Rurais"
+            },
+            {
+                "id": 6,
+                "type": "sites-hotsites",
+                "img": "/images/icons/sites_hotsites.svg",
+                "aba": "Sites & <br> Hotsites"
+            },
+            {
+                "id": 7,
+                "type": "portais-imobiliarios",
+                "img": "/images/icons/portal_imobiliarios.svg",
+                "aba": "Portais <br> Imobiliários"
+            },
+            {
+                "id": 8,
+                "type": "minhas-conexoes",
+                "img": "/images/icons/on.svg",
+                "aba": "Minhas <br> Conexões"
+            }
+        ]
+    },
+    
+    "heroDepositions": {
+        "title": "O que diz quem testou o <span class='d-block d-md-inline'><span class='text-subsee'> SUBSEE</span> <span class='text-on'>on</span>",
+        "testimonials" :[
+            {
+                "desc": "Utilizamos o CRM Imobiliário da SUB100 desde a primeira versão há mais de 20 anos. No entanto, o CRM SUBSEE on nos impressionou devido à sua mobilidade e facilidade no cadastro. O sistema de <a href='/crm-imobiliario/imoveis-locacao/' class='text-primary text-decoration-none d-inline'>empréstimo de chaves</a> é verdadeiramente revolucionário, deixando nossos clientes surpresos com essa funcionalidade.",
+                "name": "Valtinez Favarão",
+                "position": "Diretor",
+                "company": "Favarão Imóveis",
+                "imgSrc": "/images/depositions/favarao.png",
+                "width": "150",
+                "height": "41",
+                "alt": "logomarca-favarao-imoveis-depoimento-sobre-crm",
+                "titleAlt": "Logomarca Favarão Imóveis depoimento sobre CRM"
+            },
+            {
+                "desc": "A qualidade do anúncio criado pelo SUBSEE nos deixou muito impressionados. O CRM Imobiliário apresenta uma linguagem especializada para <a href='/crm-imobiliario/imoveis-rurais/' class='text-primary text-decoration-none d-inline'>anúncios rurais</a>. Apresentamos várias sugestões, e a empresa as incorporou rapidamente no sistema, entregando um resultado de excelente qualidade e inovação.",
+                "name": "Alessandro R. Assis",
+                "position": "Agrimensor / Geógrafo",
+                "company": "Congeo - Consultoria Geográfica",
+                "imgSrc": "/images/depositions/congeo.png",
+                "width": "120",
+                "height": "32",
+                "alt": "logomarca-congeo-depoimento-sobre-crm",
+                "titleAlt": "Logomarca Congeo depoimento sobre CRM"
+            },
+            {
+                "desc": "O grande diferencial do CRM Imobiliário é a integração nativa com o Portal SUB100, o que permite a criação de anúncios com a qualidade exigida pelo nosso <a href='/crm-imobiliario/portais-imobiliarios/' class='text-primary text-decoration-none d-inline'>departamento de marketing</a>. Todos os leads gerados são direcionados para nosso CRM de forma integrada e rápida atráves do SUB100 Leads.",
+                "name": "Rebeca Paganeli",
+                "position": "Marketing",
+                "company": "LBX Construtora",
+                "imgSrc": "/images/depositions/lbx.png",
+                "width": "110",
+                "height": "40",
+                "alt": "logomarca-lbx-construtora-depoimento-sobre-crm",
+                "titleAlt": "Logomarca LBX Construtora depoimento sobre CRM"
+            }
+            
+        ]
+    },
+    "heroPlan": {
+        "title": "Planos & Preços",
+        "subtitle": "Elaboramos planos que se encaixam ao seu perfil",
+        "package": [
+            {
+                "plan": "Urbano",
+                "type": "Funcionalidades:",
+                "functionalities": [
+                    {
+                        "item": "02 Usuários"
+                    },
+                    {
+                        "item": "Site & hotsite padrão urbano"
+                    },
+                    {
+                        "item": "Integração com SUB100"
+                    },
+                    {
+                        "item": "Suporte via WhatsApp"
+                    },
+                    {
+                        "item": "Treinamentos"
+                    }
+                ],
+                "prices": "R$ 350,00",
+                "monthly": "a.m",
+                "optional": "+ opcionais",
+                "know": "Ver todos os recursos inclusos",
+                "knowLink": "/planos-precos/",
+                "knowtilte": "Veja todos os recursos inclusos no plano urbano",
+                "knowalt": "veja-todos-os-recursos-inclusos-no-plano-urbano",
+                "namelink": "Teste grátis por 30 dias",
+                "link":"/teste-gratis/",
+                "linktilte": "Comece a usar o CRM SUBSEE gratuitamente por 30 dias",
+                "linkalt": "comece-a-usar-o-crm-gratuitamente-por-30-dias"
+                
+            },
+            {
+                "plan": "Rural",
+                "type": "Funcionalidades:",
+                "functionalities": [
+                    {
+                        "item": "02 Usuários"
+                    },
+                    {
+                        "item": "Site & hotsite padrão rural"
+                    },
+                    {
+                        "item": "Integração com SUB100"
+                    },
+                    {
+                        "item": "Suporte via WhatsApp"
+                    },
+                    {
+                        "item": "Treinamentos"
+                    }
+                ],
+                "prices": "R$ 350,00",
+                "monthly": "a.m",
+                "optional": "+ opcionais",
+                "know": "Ver todos os recursos inclusos",
+                "knowLink": "/planos-precos/",
+                "knowtilte": "Veja todos os recursos inclusos no plano rural",
+                "knowalt": "veja-todos-os-recursos-inclusos-no-plano-rural",
+                "namelink": "Teste grátis por 30 dias",
+                "link":"/teste-gratis/",
+                "linktilte": "Comece a usar o CRM SUBSEE gratuitamente por 30 dias",
+                "linkalt": "comece-a-usar-o-crm-gratuitamente-por-30-dias"
+            }
+        ]
+    },
+    "heroFrequent": {
+        "title": "Dúvidas Frequentes",
+        "frequents" :[
+            {
+                "id": "1",
+                "title": "Por que você deve experimentar o CRM Imobiliário SUBSEE gratuitamente?",
+                "alt": "por-que-voce-deve-experimentar-crm-imoibiliario-subsee-gratuitamente",
+                "desc":  "Cada <b>CRM Imobiliário</b> tem suas próprias características, e muitos podem ter funcionalidades em excesso ou em falta. Com o teste gratuito do SUBSEE, você pode descobrir sem custo como ele atende às suas necessidades específicas e como nosso suporte dedicado resolve suas dúvidas e necessidades. Experimente agora e veja como o <b>CRM SUBSEE</b> pode transformar sua gestão imobiliária!"
+            },
+            {
+                "id": "2",
+                "title": "Como vou aprender a usar o SUBSEE?",
+                "alt": "como-vou-aprender-a-usar-o-subsee",
+                "desc":  "Primeiramente, a <b>SUB100 Sistemas</b> é reconhecida pelos clientes por desenvolver sistemas fáceis e intuitivos de manusear. No entanto, se for necessário, o <b>CRM Imobiliário SUBSEE</b> possui uma plataforma de aprendizado para todos os módulos do sistema. Além disso, promovemos treinamentos coletivos mensais e, sempre que atualizamos o sistema, produzimos vídeos apresentando as novidades da nova versão. Caso encontre alguma dificuldade, o usuário poderá acionar o suporte para resolvê-las."
+            },
+            {
+                "id": "3",
+                "title": "Se eu estiver com dificuldade, posso solicitar um treinamento online?",
+                "alt": "se-eu-estiver-com-dificuldade-posso-solicitar-um-treinamento-online",
+                "desc":  "Sim, claro. Basta agendar na nossa agenda online de treinamentos. Desejamos que nossos clientes se sintam capazes de operar nosso <b>CRM Imobiliário</b> com total destreza e maestria."
+            },
+            {
+                "id": "4",
+                "title": "É possível importar meus dados do meu sistema para o SUBSEE?",
+                "alt": "e-possivel-importar-meus-dados-do-meu-sistema-para-o-subsee",
+                "desc":  "Caso o seu sistema <b>CRM Imobiliário</b> seja capaz de exportar informações em formato <b>XML e formato de planilhas</b> para os cadastros de pessoas, nossa equipe estará pronta para efetuar a importação dos seus registros de imóveis e contatos para o <b>CRM SUBSEE</b>. Estamos à disposição para auxiliá-lo."
+            },
+            {
+                "id": "5",
+                "title": "Por usar o SUBSEE on, tenho descontos para anunciar no Portal SUB100?",
+                "alt": "por-usar-o-subsee-on-tenho-descontos-para-anunciar-no-portal-sub100",
+                "desc":  "Sim, a <b>SUB100</b> oferece combos especiais para a utilização de mais de um serviço. Você pode verificar as condições em nossa seção de <a href='/planos-precos/' class='text-bold text-decoration-none text-primary'>Planos & Preços</a> ou solicitar um orçamento com nosso time comercial."
+            },
+            {
+                "id": "6",
+                "title": "O SUBSEE integra-se com quais portais imobiliários?",
+                "alt": "o-subsee-integra-se-com-quais-portais-imobiliarios",
+                "desc":  "O <b>SUBSEE</b> integra-se com os principais portais imobiliários brasileiros. Você pode conferir a lista de portais disponíveis em minhas conexões. Se o <a href='/crm-imobiliario/portais-imobiliarios/' class='text-bold text-decoration-none text-primary'>portal ou rede de negócios</a> de sua preferência não estiver listado, você poderá solicitar à nossa equipe de suporte uma análise da viabilidade para criarmos essa integração. Lembrando que os portais possuem regras de cobranças independentes dos nossos serviços e limitações em campos importações de dados do anúncio."
+            },
+            {
+                "id": "7",
+                "title": "Os anúncios podem ser inseridos no Pixel do Facebook?",
+                "alt": "os-anuncios-podem-ser-inseridos-no-pixel-do-facebook",
+                "desc":  "Sim, além do <b>Pixel do Facebook</b>, você pode inserir outras chaves que permitem o rastreamento e a otimização necessários para que seu anúncio seja bem-sucedido nas suas campanhas de marketing e fácil de ser encontrado no <b>Google</b>."  
+            },
+            {
+               "id": "8",
+               "title": "Possuo um domínio. Posso utilizá-lo nos sites criados pela SUB100?",
+               "alt": "possuo-um-dominio-posso-utiliza-lo-nos-sites-criados-pela-sub100",
+               "desc":  "Sim, se você já possui um <b>domínio</b> para o seu site, ele pode ser utilizado com o SUBSEE on. Caso você não tenha um domínio, não se preocupe, o registro de domínio é simples, barato e fácil de ser feito."
+            },
+            {
+                "id": "9",
+                "title": "O SUBSEE on já vem com um site imobiliário?",
+                "alt": "o-subsee-on-ja-vem-com-um-site-imobiliario",
+                "desc":  "Sim, o SUBSEE inclui a opção de um site imobiliário, que pode ser <b>padrão ou personalizado</b>. Os valores desses serviços são cobrados como serviços adicionais. Você pode escolher entre dois tipos de planos: <b>Urbano ou Rural</b>. No plano Urbano, você tem a flexibilidade de escolher entre um site padrão ou personalizado, enquanto no plano Rural, está disponível apenas o site padrão."
+            },
+            {
+                "id": "10",
+                "title": "Se eu contratar um Plano Urbano, posso anunciar imóveis rurais?",
+                "alt": "se-eu-contratar-um-plano-urbano-posso-anunciar-imoveis-rurais",
+                "desc":  "Sim, <a href='/crm-imobiliario/portais-imobiliarios/' class='text-bold text-decoration-rurais'>seu anúncio de imóveis rurais</a>, como fazendas, sítios e chácaras, são bem-vindos. A diferença entre os planos Urbano e Rural está no layout do site, não no tipo de anúncio."
+            }
+           
+        ]
+    },
+    "footer": {
+        "titleAddress": "Localização",
+        "address": "Rua Machado de Assis, 621<br/>Zona 06 - CEP 87015-580<br/>Maringá - PR",
+        "howToGet": "Como chegar",
+        "howToGetAlt": "como-chegar",
+        "titleNetwork": "Siga nas redes sociais",
+        "descriptionSUB100": "Há 24 anos, a SUB100 Sistemas ajuda a realizar os sonhos de milhões de pessoas, conectando através do seu CRM e Site imobiliário a corretores, imobiliárias, loteadoras, incorporadoras e construtoras às pessoas que procuram um novo lugar para morar ou investir.",
+        "titleConctact": "Comercial",
+        "tel": "44 3032-5208",
+        "email": "contato@sub100.com.br",
+        "whatsapp": "Quero contato via WhatsApp",
+        "terms": "Termos de uso",
+        "policy": "Política de privacidade",
+        "company": "<b>SUB100</b> Imobiliárias",
+        "by": "<b>SUB100</b> Sistemas"
+    }
+}

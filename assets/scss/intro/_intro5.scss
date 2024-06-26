@@ -1,0 +1,146 @@
+/* 06.05. Home Five Intro CSS */
+
+.intro5-section {
+    background-color: #5D5FEF;
+    .fs-55 { font-size:55px!important;} 
+    .fs-45 { font-size:45px!important;} 
+    .fs-35 { font-size:38px;} 
+   /* & .container {
+        z-index: 9;
+    }*/
+
+  /*  & .section-bottom-shape {
+        transform: rotateX(180deg);
+    }*/
+
+  /*  @media #{$large-mobile} {
+        height: auto;
+        background-position: left top;
+    }*/
+    @media #{$tablet-device, $large-mobile} {
+        .position-relative {
+            .p-1{
+                font-size: 12px!important;
+            }
+        }
+    }
+}  
+
+.intro5-content { 
+    .fs-7 { font-size: 0.8rem;} 
+    .fs-55 { font-size:55px;} 
+    .fs-45 { font-size:45px;} 
+    .fs-35 { font-size:38px;} 
+    .bottom-25 { bottom: 25% !important; }
+    .top-25 { top: 25% !important; }
+    // Responsive
+    /*@media #{$tablet-device}{
+        padding: 140px 15px 40px;
+    }
+    @media #{$large-mobile}{
+        padding: 140px 15px 40px;
+        max-width: 100%;
+    }*/
+    & .title {
+        font-size: 30px;
+        line-height: 1.3;
+        color: $secondary;
+        &.fz-26{
+            font-size: 26px;
+        }
+    }
+
+    & .desc {
+       /* max-width: 540px;
+        margin-top: 12px;*/
+
+        & p {
+            font-size: 18px;
+            line-height: 1.67;
+            color: #8c89a2;
+        }
+    }
+
+    & h1 {
+        & span{
+            color: #00d39b;
+            font-weight: 700;
+        }
+
+    }
+
+    & .link{
+        display: block;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    @media #{$tablet-device, $large-mobile} {
+        .fs-55 {font-size:25px!important;} 
+        .fs-45 { font-size:28px!important}
+        .fs-35 { font-size:20px;} 
+        .fs-7 { font-size: 0.7rem;} 
+        .fs-5 { font-size:16px!important}
+        .sistema {
+            h2 {
+                font-size:16px!important;
+                margin-bottom: 5px;
+            }
+        }
+        .visto img {width: 15px!important}
+        .fw-light.lh-md {line-height:24px;}
+        & .title {
+            font-size: 30px;
+            &.fz-26{
+                font-size: 24px;
+            }
+        }
+
+        & .desc {
+            & p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    @media #{$extra-small-mobile} {
+         
+        & .title {
+            font-size: 21px;
+            &.fz-26{
+                font-size: 20px;
+            }
+
+        }
+
+        & .desc {
+            & p {
+                font-size: 16px;
+            }
+        }
+
+        & .mx-w-100 { width: 100%;}
+    }
+
+    @media (max-width: 360px) {
+        & .desc {
+            & p {
+                font-size: 15px;
+            }
+        }
+    }    
+}
+
+.dark-mode {
+    .intro5-section {
+        background-color: $bg-dark-secondary;
+        .intro5-content {
+            .title {
+                color: $white;
+            }
+            p {
+                color: $paragraph-light;
+            }
+        }
+    }
+}

@@ -1,0 +1,227 @@
+/* 06.05. Home Five Intro CSS */
+
+.bg-F5F5F5{
+    background: #F5F5F5;
+}
+
+.bg-E9EEFD {
+    background-color: #E9EEFD !important;
+}
+
+.modules-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #EEEEEE;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    @media #{$laptop-device} {
+        background-position:right -140px top;
+    }
+    @media #{$desktop-max-device} {
+        background-image:none !important;
+    }
+
+    & .container {
+        z-index: 9;
+    }
+    & .corner{
+        position: absolute;
+        left: 0; 
+        top: 0;
+    }
+    & .backgroundLine {
+        position: absolute;
+        right: 50px;
+        bottom: -60px;
+        z-index: -1;
+    } 
+    & .sub100-modules {
+        position: absolute;
+        z-index: -1;
+        bottom: -35px;
+        left: -60px;
+        @media #{$extra-small-mobile} {
+            left: 0;
+            width: 100%;
+        }    
+    }
+
+    & .sub100-seta{
+        position: absolute !important;
+        z-index: 0;
+        bottom: -25px;
+        left: 190px;
+        @media #{$extra-small-mobile} {
+            left: 46%;
+            width: 35px;
+        } 
+    }
+
+    &.fz-46{
+        font-size: 48px;
+    }
+    &.fz-36{
+        font-size: 36px;
+    }
+    &.fz-30{
+        font-size: 30px;
+    }
+
+    @media #{$large-mobile} {
+        height: auto;
+        background-position: left top;
+        & .mx-w-100 { width: 100%;}
+    }
+}
+
+.modules-content {
+    & .title {
+        font-size: 46px;
+        font-weight: 600;
+        line-height: 1;
+        color: $secondary;
+    }
+    & .desc {
+        margin-top: 12px;
+        & p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #666666;
+        }
+    }
+    
+    & .fz-46{
+        font-size: 48px;
+    }
+    & .fz-36{
+        font-size: 36px;
+    }
+    & .fz-30{
+        font-size: 28px;
+        color: $primary;
+    }
+
+    @media #{$tablet-device, $large-mobile} {
+        & .title {
+            font-size: 30px;
+        }
+        & .desc {
+            & p {
+                font-size: 16px;
+            }
+        }
+
+    }
+
+    @media #{$extra-small-mobile} {
+        & .title {
+            font-size: 23px;
+        }
+        & .desc {
+            & p {
+                font-size: 16px;
+            }
+        }
+        & .fz-46{
+            font-size: 36px;
+        }
+        & .fz-36{
+            font-size: 30px;
+        }
+        & .fz-30{
+            font-size: 20px;
+        }
+    }
+}
+
+
+.modules-screen {
+    & .rounded {
+        cursor: pointer;
+    }
+    & .app{
+        position: relative;
+       // display: flex;
+        border: 2px solid #CCCCCC;
+        border-radius: 10px;
+       // width: fit-content;
+    }
+    & .box {
+        border: 15px solid #E1E1E1;
+        border-radius: 10px;
+        border-radius: 10px;
+        max-width: 100%;
+    }
+    & .personModules {
+        position: absolute !important; 
+        left: -80px;
+        bottom: -140px;
+        z-index: 1;
+    }
+    & .VueCarousel-pagination{
+        position: absolute;
+        bottom: -55px;
+    }
+    & .VueCarousel-dot{
+        background-color: #c8c5e2 !important;
+        &.VueCarousel-dot--active{
+            background-color: $secondary !important;
+        }
+    }   
+}
+
+.VueCarousel-navigation{
+    cursor: hand;
+    &-button{
+        display: none;
+    }
+    &:hover  &-button{
+        display: block;
+    }
+} 
+.fancybox__container {
+    --fancybox-bg: rgb(255 255 255 / 90%)!important;
+    & .carousel__button{
+        width: 60px !important;
+        height: 60px !important;
+        border-radius: 0px!important;
+        background-color: #00D39B !important;
+        @media #{$extra-small-mobile} {
+            &.is-next, &.is-prev{
+                display: none!important;
+            }
+        }
+    }
+    & .fancybox__toolbar{
+        background: none!important;
+    }
+}
+a[data-fancybox] img{
+    cursor: pointer!important;
+}
+
+.dark-mode {
+    .modules-section {
+        background: $bg-dark-secondary;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        .modules-content {
+            .title {
+                color: $white;
+            }
+            p {
+                color: $paragraph-light;
+            }
+        }
+        @media #{$laptop-device} {
+            background-position:right -140px top !important;
+        }
+        @media #{$desktop-max-device} {
+            background-image:none !important;
+        }
+    }
+    .bg-F5F5F5{
+        background: #111111;
+    }
+}

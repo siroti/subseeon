@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/crm-imobiliario/sites-hotsites", {data:[{_img:{"/_ipx/q_20/images/sub100/sitesHotsites.png":"\u002F_nuxt\u002Fimage\u002F03e95b.png","/_ipx/f_webp,q_80,s_580x347/images/sub100/notebook.png":"\u002F_nuxt\u002Fimage\u002F6e4d85.webp"},_criticalFontStyles:{}}],fetch:{},mutations:void 0});

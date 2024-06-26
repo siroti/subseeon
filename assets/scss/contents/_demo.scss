@@ -1,0 +1,157 @@
+/* 06.05. Home Five Intro CSS */
+
+.demo-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(#EEEEEE, #EEEEEE);
+    background-position: right -220PX;
+    background-repeat: no-repeat;
+
+    & select:focus {
+        border-color: #5D5FEF;
+        background-color: #fff;
+    }
+
+    & .container {
+        z-index: 9;
+    }
+    & .corner{
+        position: absolute;
+        left: 0; 
+        top: 0;
+    }
+    & .backgroundDemo {
+        position: absolute;
+        top: 380px;
+        z-index: -1;
+    } 
+    & .sub100-demo {
+        position: absolute;
+        z-index: 0;
+        bottom: 60px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    & textarea {
+        min-height: 200px;
+    }
+    & #curvaBackgroundBottom {
+        .fil0 {fill:#FEFEFE}
+        .fil2 {fill:#03D29C}
+        .fil1 {fill:#EDEDED}
+    }
+    & .box {
+        z-index: 1;
+        background-color: #FFFFFF;
+        box-shadow: 0 0 40px rgb(51 51 51 / 10%);
+        padding: 40px;
+        height: fit-content;
+        & h5 {
+            font-weight: normal;
+        }
+    }
+    select {
+        width: 100%;
+        min-height: 52px;
+        color: dimgray;
+        border-radius: 5px;
+        outline: none;
+        padding: 3px 20px 3px 20px;
+        border: 1px solid #f5f5f5;
+        background-color: #f5f5f5;
+    }
+
+    select.place {
+        color:#999!important;
+    }
+
+    @media #{$large-mobile} {
+        height: auto;
+        background-position: left top;
+        & .w-sm-100 {
+            width: 100%;
+        }
+    }
+}
+
+.demo-content {
+    // Responsive
+    @media #{$tablet-device}{
+        padding: 140px 15px 40px;
+    }
+    @media #{$large-mobile}{
+        padding: 140px 15px 40px;
+        max-width: 100%;
+    }
+    & .title {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 1;
+        color: $secondary;
+    }
+    & .desc {
+        max-width: 540px;
+        margin-top: 12px;
+        & p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #666666;
+        }
+    }
+
+    @media #{$tablet-device, $large-mobile} {
+        & .title {
+            font-size: 30px;
+        }
+    }
+
+    @media #{$extra-small-mobile} {
+        & .title {
+            font-size: 21px;
+        }
+        & .mx-w-100 { width: 100%;}
+    }
+
+    @media (max-width: 360px) {
+        & .desc {
+            & p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+
+
+/*
+.demo-image{
+    padding: 77px 15px 0px;
+    // Responsive
+    @media #{$tablet-device}{
+        padding: 0 15px 50px;
+    }
+    @media #{$large-mobile}{
+        padding: 0 15px 50px;
+    }
+}
+*/
+
+.dark-mode {
+    .demo-section {
+        background-image: linear-gradient($bg-dark-secondary, $bg-dark-secondary);
+        .demo-content {
+            .title {
+                color: $white;
+            }
+            p {
+                color: $paragraph-light;
+            }
+        }
+        #curvaBackgroundBottom {
+            .fil0 {fill:$bg-dark-secondary}
+            .fil1 {fill:$bg-dark-secondary}
+        }
+    }
+}

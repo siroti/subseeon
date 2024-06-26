@@ -1,0 +1,278 @@
+/*----------------------------------------*/
+/*  15. Video CSS
+/*----------------------------------------*/
+
+.about-me-video-wrapper {
+    position: relative;
+    // z-index: 9;
+    &.about-us-one-video{
+        & .shape {
+            position: absolute;
+            z-index: 1;
+    
+            &-1 {
+                top: 300px;
+                left: -99px;
+                width: 166px;
+                height: 166px;
+                & svg {
+                    width: 100%;
+                    height: 100%;
+    
+                    & * {
+                        fill: #f1f1f1;
+                    }
+                }
+            }
+    
+            &-2 {
+                top: 8px;
+                left: -65px;
+            }
+    
+            &-3 {
+                top: 0px;
+                right: 30px;
+    
+                & span {
+                    display: block;
+                    width: 60px;
+                    height: 60px;
+                    text-indent: -9999px;
+                    border: 8px solid #ecc5ab;
+                    border-radius: 50%;
+                }
+            }
+    
+            &-4 {
+                right: 30px;
+                bottom: -60px;
+            }
+        }
+    
+        @media #{$large-mobile} {
+            & .shape {
+                &-1 {
+                    top: -90px;
+                    width: 120px;
+                    height: 130px;
+                }
+    
+                &-2 {
+                    width: 90px;
+                    height: 90px;
+                }
+    
+                &-3 {
+                    right: -20px;
+    
+                    & span {
+                        width: 45px;
+                        height: 45px;
+                        border-width: 6px;
+                    }
+                }
+    
+                &-4 {
+                    width: 85px;
+                }
+            }
+        }
+
+        .about-me-video{
+            .silentbox-item {
+                max-width: 100%;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    & .shape {
+        position: absolute;
+        z-index: 1;
+
+        &-1 {
+            top: -120px;
+            left: 0;
+            width: 226px;
+            height: 226px;
+
+            & svg {
+                width: 100%;
+                height: 100%;
+
+                & * {
+                    fill: #E5C791;
+                }
+            }
+        }
+
+        &-2 {
+            top: 0;
+            left: 20px;
+        }
+
+        &-3 {
+            // z-index: 11;
+            top: 40px;
+            right: 0;
+
+            & span {
+                display: block;
+                width: 90px;
+                height: 90px;
+                text-indent: -9999px;
+                border: 12px solid #ECC5AB;
+                border-radius: 50%;
+            }
+        }
+
+        &-4 {
+            right: 20px;
+            bottom: -45px;
+        }
+    }
+
+    @media #{$large-mobile} {
+        & .shape {
+            &-1 {
+                top: -90px;
+                width: 120px;
+                height: 130px;
+            }
+
+            &-2 {
+                width: 90px;
+                height: 90px;
+            }
+
+            &-3 {
+                right: 0px;
+
+                & span {
+                    width: 45px;
+                    height: 45px;
+                    border-width: 6px;
+                }
+            }
+
+            &-4 {
+                width: 85px;
+            }
+        }
+    }
+}
+
+.about-me-video {
+    position: relative;
+    z-index: 9;
+    display: block;
+    width: 100%;
+    max-width: 970px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: -40px !important;
+    & .silentbox-item {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: -140px;
+        border-radius: 5px;
+    }
+    &.success-story-video{
+        max-width: 100%;
+        box-shadow: 0px 130px 50px -100px rgba(51,51,51,.22);
+    }
+    & .image {
+        width: 100%;
+        transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+    }
+
+    & .icon {
+        position: absolute;
+        z-index: 9;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        // res
+        @media #{$extra-small-mobile}{
+            max-width: 60px;
+            width: 100%;
+        }
+    }
+
+    &:hover {
+        & .image {
+            transform: scale(1.1);
+        }
+    }
+    //res
+    @media #{$desktop-device, $tablet-device, $large-mobile}{
+        margin-bottom: 0 !important; 
+    }
+}
+
+.hero-image-section{
+    margin-bottom: 240px;
+    // Responsive
+    @media #{$large-mobile}{
+        margin-bottom: 0;
+    }
+}
+
+.hero-image-wrapper{
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    max-width: 970px;
+    margin: auto;
+    margin-bottom: -240px;
+    border-radius: 5px;
+    // Responsive
+    @media #{$large-mobile}{
+        margin-bottom: 0;
+    }
+}
+
+.h6-intro-video{
+    border: 20px solid $white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 2px 45px 0px rgba(0,0,0,.15);
+    .silentbox-item {
+        margin-bottom: 0px;
+    }
+}
+
+.dark-mode {
+    .video-section-1 {
+        background-color: $bg-dark-secondary !important;
+    }
+}
+
+.distance-learning-page-wrapper,
+.course-portal-page-wrapper,
+.business-page-wrapper {
+    .about-me-video {
+        margin-bottom: 0 !important;
+    }
+}
+
+
+.home-one-wrapper,
+.multimedia-pedagogy-wrapper,
+.about-me-page-wrapper,
+.about-page-02-wrapper {
+    #video-section-1 {
+        @media #{$large-mobile} {
+            margin-bottom: 0;
+        }
+    }
+}
+.multimedia-pedagogy-wrapper {
+    #video-section-1 {
+        padding-top: 0;
+    }
+}

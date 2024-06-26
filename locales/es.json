@@ -1,0 +1,295 @@
+{
+    "language": "Español",
+    "head": {
+        "home": {
+            "title": "SUB100 Inmobiliarias - El mejor sistema para agencias inmobiliarias y agentes",
+            "description": "Sistema y sitio web para agencias inmobiliarias y agentes. Sistemas, portal de propiedades, creación de sitios web y todo el soporte que su empresa necesita"
+        },
+        "plan": {
+            "title": "Planes y Precios - SUB100 Inmobiliarias",
+            "description": "Hemos elaborado planes que se ajustan a tu perfil. Disfruta de un 12% de descuento en el plan anual"
+        },
+        "site": {
+            "title": "Sitios web y Páginas de Aterrizaje - SUB100 Inmobiliarias",
+            "description": "Plantillas funcionales e inteligentes desarrolladas para corredores, agencias inmobiliarias y promotores de terrenos"
+        },
+        "test": {
+            "title": "Prueba gratuita de 30 días - SUB100 Inmobiliarias",
+            "description": "La prueba gratuita del SUBSEE on le permitirá evaluar las características del sistema"
+        },
+        "demo": {
+            "title": "Solicitar una Demostración - SUB100 Inmobiliarias",
+            "description": "Solicite una demostración y pruebe todas las características del sistema en la práctica"
+        },
+        "policy": {
+            "title": "Política de Privacidad - SUB100 Inmobiliarias",
+            "description": "Ley N.º 13.709/2018, más conocida como Ley General de Protección de Datos personales (LGPD)"
+        },
+        "term": {
+            "title": "Términos de Uso - SUB100 Inmobiliarias",
+            "description": "El acceso al contenido de este sitio web dependerá de su acuerdo previo y expreso con los Términos de Uso y Políticas de Privacidad"
+        }
+    },    
+    "header":{
+        "menu":{
+            "subsee": "SUBSEE",
+            "site": "Sitio & Hotsites" ,
+            "portal": "Portal de Bienes Raíces",
+            "prices": "Precios",
+            "blog": "Blog",
+            "sobre": "Sobre SUB100",
+            "submenu": { 
+                "sub100": "Sobre Nosotros",
+                "mission": "Misión y Valores",
+                "word": "Mensaje del Director",
+                "work": "Trabaja con Nosotros",
+                "contact": "Contáctanos"
+            }
+        },
+        "enter":"Ingresar"
+    },
+    "heroSistemas": {
+        "title": "<span class='text-secondary fw-semibold'>Bienvenido </span>  <div class='d-block'>al mejor <span class='text-secondary fw-semibold'>lugar</span></div><div class='d-inline d-md-block'>para <span class='text-secondary fw-semibold'>tu propiedad</span></div>",
+        "specialty" : {
+            "01": "Administrador de Propiedades",
+            "02": "Sitios web y Hotsites",
+            "03": "Especialista en Propiedades Urbanas",
+            "04": "Disruptivo para Propiedades Rurales",
+            "05": "Nativo para Propiedades SUB100",
+            "06": "Integrado con Portales de Bienes Raíces"
+        },
+        "button": "Prueba Gratuita de 30 días"
+    },
+    "heroNativo": {
+        "title": "SUBSEE <span class='text-on'>on</span> nativo para móvil y vintage para escritorio",
+        "subtitle": "SUBSEE <span class='text-on fw-light'>on</span> te mantiene <span class='d-block d-md-inline fw-light'>productivo en cualquier dispositivo</span>"
+    },
+    "heroPlataforma": {
+        "title": "Una plataforma diseñada para múltiples mercados",
+        "subtitle": "¿Qué le gustaría gestionar con SUBSEE <span class='text-on'>on</span>",
+        "products":[
+            {
+                "id": 1,
+                "type": "imoveis-lancamentos",
+                "img": "/images/icons/lancamentos.svg", 
+                "aba": "Inmuebles <br> Lanzamiento"
+            },
+            {
+                "id": 2,
+                "type": "imoveis-venda",
+                "img": "/images/icons/venda.svg",
+                "aba": "Inmuebles <br> Venta"
+            },
+            {
+                "id": 3,
+                "type": "imoveis-locacao",
+                "img": "/images/icons/locacao.svg",
+                "aba": "Inmuebles <br> Alquiler"
+            },
+            {
+                "id": 4,
+                "type": "imoveis-temporada",
+                "img": "/images/icons/temporada.svg",
+                "aba": "Inmuebles <br> Temporada"
+            },
+            {
+                "id": 5,
+                "type": "imoveis-rurais",
+                "img": "/images/icons/rural.svg",
+                "aba": "Inmuebles <br> Rurales"
+            },
+            {
+                "id": 6,
+                "type": "sites-hotsites",
+                "img": "/images/icons/sites_hotsites.svg",
+                "aba": "Sitios & <br> Hotsites"
+            },
+            {
+                "id": 7,
+                "type": "portais-imobiliarios",
+                "img": "/images/icons/portal_imobiliarios.svg",
+                "aba": "Portales <br> Inmobiliarios"
+            },
+            {
+                "id": 8,
+                "type": "minhas-conexoes",
+                "img": "/images/icons/on.svg",
+                "aba": "Mis <br> Conexiones"
+            }
+        ]
+    },
+    "heroDepositions": {
+        "title": "Lo que dicen nuestros clientes sobre <span class='text-dark'>SUBSEE</span> <span class='text-on'>on</span>",
+        "testimonials" :[
+            {
+                "desc": "La gran diferencia con SUBSEE es la integración nativa con el Portal SUB100, lo que permite la creación de anuncios con la calidad exigida por nuestro departamento de marketing. Todos los clientes potenciales generados se dirigen a nuestro CRM de forma integrada y rápida.",
+                "name": "Rafael Garcia",
+                "position": "Director general",
+                "company": "PRC Empreendimento",
+                "imgSrc": "/images/depositions/prc.png?date20231013",
+                "width": "120",
+                "height": "36"
+            },
+            {
+                "desc": "La calidad del anuncio producido por SUBSEE nos impresionó. El sistema tiene un lenguaje especializado para manejar anuncios rurales, además de permitir la creación de atributos que se integran con archivos georreferenciados KML.",
+                "name": "Alessandro Mendes",
+                "position": "Ingeniero cartográfico",
+                "company": "Congeo – Consultoria Geográfica",
+                "imgSrc": "/images/depositions/congeo.png?date20231013",
+                "width": "120",
+                "height": "32"
+            },
+            {
+                "desc": "Hemos estado utilizando SUBSEE desde sus primeras versiones. Sin embargo, SUBSEE on nos impresionó a todos debido a su movilidad y facilidad en el registro. El sistema de préstamo de llaves es verdaderamente revolucionario, dejando a nuestros clientes sorprendidos con esta funcionalidad.",
+                "name": "Valtinez Favarão",
+                "position": "Director",
+                "company": "Favarão Imóveis",
+                "imgSrc": "/images/depositions/favarao.png?date20231013",
+                "width": "150",
+                "height": "41"
+            }
+        ]
+    },
+    "heroPlan": {
+        "title": "Planes y Precios",
+        "subtitle": "Hemos elaborado planes que se ajustan a tu perfil",
+        "package": [
+            {
+                "plan": "Gratuito",
+                "type": "Funcionalidades:",
+                "functionalities": [
+                    {
+                        "item": "01 Usuario"
+                    },
+                    {
+                        "item": "Sitio & página de muestra"
+                    },
+                    {
+                        "item": "Soporte a través de WhatsApp"
+                    },
+                    {
+                        "item": "Entrenamientos"
+                    }
+                ],
+                "prices": "Gratis por 30 días",
+                "monthly": "",
+                "optional": "",
+                "know": "No se requiere tarjeta de crédito",
+                "knowLink": "/planos-precos/",
+                "namelink": "Pruébalo ahora",
+                "link":"/teste-gratis/"
+            },
+            {
+                "plan": "Urbano",
+                "type": "Funcionalidades:",
+                "functionalities": [
+                    {
+                        "item": "02 Usuarios"
+                    },
+                    {
+                        "item": "Sitio & hotsite estándar urbana"
+                    },
+                    {
+                        "item": "Integración con SUB100"
+                    },
+                    {
+                        "item": "Soporte a través de WhatsApp"
+                    },
+                    {
+                        "item": "Entrenamientos"
+                    }
+                ],
+                "prices": "US$ 69.00",
+                "monthly": "a.m",
+                "optional": "+ opcionales",
+                "know": "Ver todos los recursos incluidos",
+                "knowLink": "/planos-precos/",
+                "namelink": "Cómpralo ahora",
+                "link":" "
+            },
+            {
+                "plan": "Rural",
+                "type": "Funcionalidades:",
+                "functionalities": [
+                    {
+                        "item": "02 Usuarios"
+                    },
+                    {
+                        "item": "Sitio & hotsite estándar rural"
+                    },
+                    {
+                        "item": "Integración con SUB100"
+                    },
+                    {
+                        "item": "Soporte a través de WhatsApp"
+                    },
+                    {
+                        "item": "Entrenamientos"
+                    }
+                ],
+                "prices": "US$ 69.00",
+                "monthly": "a.m",
+                "optional": "+ opcionales",
+                "know": "Ver todos los recursos incluidos",
+                "knowLink": "/planos-precos/",
+                "namelink": "Cómpralo ahora",
+                "link": " "
+            }
+        ]
+    },
+    "heroFrequent": {
+        "title": "Preguntas Frecuentes",
+        "frequents" :[
+            {
+                "id": "1",
+                "title": "¿Cómo aprenderé a usar SUBSEE?",
+                "desc":  "En primer lugar, SUB100 es reconocido por los clientes por desarrollar sistemas <b>fáciles e intuitivos</b> de usar. Pero si es necesario, el sistema SUBSEE tiene una plataforma de aprendizaje para todos los módulos del sistema. Además, realizamos entrenamientos colectivos mensuales y cada vez que actualizamos el sistema, producimos videos que presentan las novedades de la nueva versión. Si aún encuentras dificultades, puedes contactar con el soporte para resolverlas."
+            },
+            {
+                "id": "2",
+                "title": "¿Es posible importar mis datos de mi sistema a SUBSEE?",
+                "desc":  "Si tu sistema es capaz de exportar información en formato <b>XML y en formato de hojas de cálculo</b> para los registros de personas, nuestro equipo está listo para realizar la importación de tus registros de propiedades y contactos a SUBSEE. Estamos a tu disposición para ayudarte."
+            },
+            {
+                "id": "3",
+                "title": "Al usar SUBSEE on, ¿tengo descuentos para anunciar en el Portal SUB100?",
+                "desc":  "Sí, en SUB100 ofrecemos paquetes especiales para utilizar más de un servicio. Puedes verificar las condiciones en nuestra sección de <b>Planes y Precios</b> o solicitar un presupuesto a nuestro equipo comercial."
+            },
+            {
+                "id": "4",
+                "title": "¿Con qué portales inmobiliarios se integra SUBSEE?",
+                "desc":  "SUBSEE se integra con los principales portales inmobiliarios brasileños. Puedes consultar la lista de portales disponibles en Mis Conexiones. Si tu <b>portal o red de negocios</b> preferidos no aparecen en la lista, puedes solicitar a nuestro equipo de soporte un análisis de viabilidad para crear esa integración."
+            },
+            {
+                "id": "5",
+                "title": "¿Se pueden insertar anuncios en el Pixel de Facebook?",
+                "desc":  "Sí, además del <b>Pixel de Facebook</b>, puedes insertar otras etiquetas que permiten el seguimiento y la optimización necesarios para que tu anuncio sea exitoso en tus campañas de marketing y sea fácil de encontrar en <b>Google</b>."  
+            },
+            {
+               "id": "6",
+               "title": "Tengo un dominio. ¿Puedo usarlo en los sitios creados por SUB100?",
+               "desc":  "Sí, si ya tienes un <b>dominio</b> para tu sitio, puedes usarlo con SUBSEE on. Si no tienes un dominio, no te preocupes, registrar un dominio es simple, económico y fácil de hacer."
+            },
+            {
+                "id": "7",
+                "title": "¿SUBSEE on ya viene con un sitio inmobiliario?",
+                "desc":  "Sí, SUBSEE on incluye un sitio inmobiliario estándar. Solo tienes que elegir el estándar de anuncio que prefieras, ya sea para sitios con predominio de <b>propiedades urbanas</b> o para corredores especializados en <b>propiedades rurales</b>."
+            }
+        ]
+    },
+    "footer": {
+        "titleAddress": "Ubicación",
+        "address": "Rua Machado de Assis, 621<br/>Zona 06 - Codigo Postal 87015-580<br/>Maringá - PR - Brazil",
+        "howToGet": "Cómo llegar",
+        "titleNetwork": "Síganos en Redes Sociales",
+        "descriptionSUB100": "Durante más de 23 años, SUB100 ha estado ayudando a millones de personas a alcanzar sus sueños, conectando a corredores, agencias inmobiliarias, desarrolladores de terrenos, constructores e inmobiliarias con aquellos que buscan un nuevo lugar para vivir o invertir.",
+        "titleContact": "Comercial",
+        "tel": "44 3032-5208",
+        "email": "contacto@sub100.com.br",
+        "whatsapp": "Quiero contactar por WhatsApp",
+        "terms": "Términos de Uso",
+        "policy": "Política de Privacidad",
+        "company": "<b>SUB100</b> Inmobiliarias",
+        "by": "<b>SUB100</b> Sistemas"
+    }
+}

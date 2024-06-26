@@ -1,0 +1,52 @@
+/* 05.06 Header Logo CSS */
+
+.header-logo {
+    & a {
+        position: relative;
+        display: flex;
+        max-width: 158px;
+
+        & img {
+            width: 100%;
+
+            &.light-logo {
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+            }
+        }
+    }
+
+    @media #{$extra-small-mobile} {
+        & a {
+            max-width: 130px;
+        }
+        & img {
+            padding: 15px 0 5px 0;
+            max-width: 130px;
+        }
+    }
+}
+
+.header-light {
+    & .header-logo {
+        & a {
+            & img {
+                &.light-logo {
+                    opacity: 1;
+                }
+
+                &.dark-logo {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+    .header-transparent {
+        .header-logo a img.light-logo {
+            position: static;
+        }
+    }

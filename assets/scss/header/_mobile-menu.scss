@@ -1,0 +1,39 @@
+/* 05.04 Mobile Menu CSS */
+
+.mobile-menu-close {
+    padding: 0;
+    @extend .header-mobile-menu-toggle;
+
+    & .toggle {
+        position: relative;
+        width: 40px;
+        height: 40px;
+
+        & i {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 29px;
+            height: 2px;
+            margin: 0 !important;
+            transform-origin: center;
+
+            &.icon-top {
+                transform: translate(-50%, -50%) rotate(45deg);
+            }
+
+            &.icon-bottom {
+                transform: translate(-50%, -50%) rotate(-45deg);
+            }
+        }
+
+        &:hover {
+            & i {
+                &::before,
+                &::after {
+                    background-color: #111111;
+                }
+            }
+        }
+    }
+}

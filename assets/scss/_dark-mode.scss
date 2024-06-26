@@ -1,0 +1,80 @@
+
+/*----- dark mode scss start -----*/
+.theme-color-toggler {
+    border: none;
+    background-color: transparent;
+    span {
+        svg {
+            color: $bg-dark-secondary;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.dark-mode {
+    .section-bottom-shape svg path {
+        fill: $bg-dark;
+    }
+    .section-title {
+        .title {
+            color: $white !important;
+        }
+        label {
+            color: $white 
+        }
+    }
+    .icon-box {
+        .content {
+            .title {
+                color: $white;
+            }
+            .link {
+                color: $paragraph-light;
+                i {
+                    color: $paragraph-light;
+                }
+                &:hover {
+                    color: $primary;
+                    i {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+        &:hover {
+            background-color: $bg-dark;
+            box-shadow: 0 0 20px $bg-dark-secondary;
+        }
+    }
+
+    .counterup-testimonial {
+        background-color: $bg-dark-secondary !important;
+        .testimonial {
+            background-color: $bg-dark-secondary;
+            .name,
+            .position {
+                color: $white;
+            }
+        }
+    }
+
+    .theme-color-toggler {
+        border: none;
+        background-color: transparent;
+        span {
+            svg {
+                color: $white;
+            }
+        }
+    }
+}
+.header-light {
+    .theme-color-toggler span svg {
+        color: $white;
+    }
+}
+
+
+/*----- dark mode scss end -----*/

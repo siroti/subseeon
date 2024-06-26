@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/lgpd", {data:[{_img:{},_criticalFontStyles:{}}],fetch:{},mutations:void 0});

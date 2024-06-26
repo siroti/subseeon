@@ -1,0 +1,41 @@
+/*----------------------------------------*/
+/*  18. Footer CSS
+/*----------------------------------------*/
+
+.footer-section {
+    padding: 70px 0 50px;
+    background-color: #F8F8F8;
+    overflow: hidden;
+    & .light-logo {
+        & .fil0 { 
+            fill: #686af1; 
+        }
+    }
+    & .fz-14{
+        font-size: 14px;
+    }
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
+    color: #737373;
+}
+
+.swiper-pagination .swiper-pagination-bullet:hover:before {
+    background: #5D5FEF ;
+}
+.swiper-pagination .swiper-pagination-bullet-active:before {
+background: #00d39b;
+}
+
+.dark-mode {
+    .footer-section {
+        background-color: $bg-dark-secondary;
+        & .light-logo {
+            & .fil0 { 
+                fill: #fff; 
+            }
+        }
+    }
+}
